@@ -9,8 +9,6 @@ const app = express();
 
 app.get('/usuario', verificarToken,  (req, res) => {
 
-       
-
     // parametros opcionales 
     let desde = req.query.desde || 0;
     desde=Number(desde);
