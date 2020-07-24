@@ -3,7 +3,7 @@ const uniqueValidator =require('mongoose-unique-validator');
 
 
 let rolesValidos ={
-    values: ['ADMIN_ROLE','SUPER_ROLE'],
+    values: ['ADMIN_ROLE','USER_ROLE'],
     message:' {VALUE} NO ES UN ROLE VALIDO'
 };
 let Schema = mongoose.Schema;
